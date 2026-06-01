@@ -1,3 +1,4 @@
+import 'dotenv/config'
 import { PrismaClient } from '@prisma/client'
 
 // bcryptjs does not have a default export — use require
